@@ -8,8 +8,13 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import StarBackground from './components/StarBackground';
 import ScrollProgress from './components/ScrollProgress';
+import AdminPage from './admin/AdminPage';
 
 function App() {
+  const isAdmin = window.location.pathname.replace(/\/$/, '').endsWith('/admin');
+
+  if (isAdmin) return <AdminPage />;
+
   return (
     <div className="relative min-h-screen">
       <StarBackground />
