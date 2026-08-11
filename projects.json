@@ -1,0 +1,84 @@
+[
+  {
+    "id": "entomo-portal",
+    "title": "Entomo Portal",
+    "category": "Full Stack Development",
+    "role": "Product design, development, and stakeholder presentation",
+    "challenge": "Important employee resources were spread across email and chat, making internal knowledge difficult to find and maintain.",
+    "solution": "A centralized Firebase portal with role-based access and an admin experience for managing content without developer support.",
+    "outcome": "Presented to senior stakeholders and approved for potential company-wide adoption.",
+    "description": [
+      "Designed and developed a full-stack employee portal, using AI-assisted tools to accelerate delivery.",
+      "Built a centralized knowledge hub with role-based access, enabling employees and admins to manage internal content efficiently.",
+      "Created an admin interface so authorized users can update content without backend intervention.",
+      "Presented the solution to senior stakeholders and received approval for potential company-wide adoption."
+    ],
+    "details": "Centralized employee knowledge hub to host wellness session recordings, articles, town halls, internal trainings, and ISO certification progress, improving accessibility compared to email- and chat-based distribution.",
+    "tech": ["Firebase", "JavaScript", "Antigravity", "Base44"],
+    "color": "from-green-400 to-teal-500",
+    "images": ["signin1.png", "home.png", "articles.png", "iso.png", "admin.png"],
+    "liveDemo": "https://entomo-7c549.web.app/",
+    "visible": true
+  },
+  {
+    "id": "deepfake-detection-system",
+    "title": "Deepfake Detection System",
+    "category": "Deep Learning",
+    "role": "Model experimentation, application development, and evaluation",
+    "challenge": "Video manipulation can be difficult to identify when spatial clues and changes between frames are evaluated separately.",
+    "solution": "A Streamlit application backed by a ResNet-50 and LSTM pipeline that combines facial features with temporal analysis.",
+    "outcome": "Delivered an interactive prototype and compared training factors including optimizers, learning rates, sequence lengths, dropout, and epochs.",
+    "description": [
+      "Standalone deepfake detection system with a Streamlit frontend and hybrid CNN-RNN backend for video forgery detection.",
+      "Trained the model on real and manipulated datasets to identify facial inconsistencies and temporal artifacts.",
+      "Used CNN spatial feature extraction with recurrent temporal sequence analysis.",
+      "Experimented with optimizers, learning rates, sequence lengths, dropout rates, and training epochs to improve performance."
+    ],
+    "details": "Using a hybrid ResNet-50 and LSTM model, the system detects deepfake videos by identifying generated artifacts on the face.",
+    "tech": ["Python", "Streamlit", "TensorFlow", "PyTorch", "Machine Learning"],
+    "color": "from-blue-500 to-cyan-500",
+    "images": ["deep_home.png", "deep_process.png", "deep_result.png", "deep_explain.png"],
+    "liveDemo": "https://deepfake-detection-system-hv7yzpci4fubzj9vvktvlu.streamlit.app/",
+    "visible": true
+  },
+  {
+    "id": "stock-delivery-database",
+    "title": "Stock Delivery Database Management System",
+    "category": "Database Management",
+    "role": "Database architecture and PL/SQL development",
+    "challenge": "A simulated supply-chain operation needed consistent records across inventory, suppliers, orders, and deliveries.",
+    "solution": "A relational Oracle schema supported by stored procedures, triggers, functions, ER diagrams, and optimized SQL queries.",
+    "outcome": "Automated stock updates and enforced business rules at the database layer.",
+    "description": [
+      "Designed and implemented a database management system to streamline stock delivery operations.",
+      "Used PL/SQL stored procedures, triggers, and functions to enforce business logic and automate stock updates.",
+      "Developed relational schemas, ER diagrams, and optimized SQL queries for inventory, suppliers, orders, and deliveries."
+    ],
+    "details": "A database management system designed to streamline stock delivery operations for a simulated supply-chain environment.",
+    "tech": ["Oracle Database", "PL/SQL", "SQL", "ERD"],
+    "color": "from-purple-500 to-pink-500",
+    "images": [],
+    "liveDemo": "",
+    "visible": true
+  },
+  {
+    "id": "ckd-support-system",
+    "title": "CKD Support System",
+    "category": "Decision Support System",
+    "role": "Data analysis and dashboard design",
+    "challenge": "Clinical risk-factor data is difficult to interpret quickly when relationships are buried in raw tables.",
+    "solution": "A set of Power BI dashboard views that make relationships between patient factors and CKD risk easier to explore.",
+    "outcome": "Created a clearer decision-support view for discussing risk patterns; the dashboard does not replace clinical diagnosis.",
+    "description": [
+      "Created multiple dashboard profiles showing the relationship of each factor to CKD risk.",
+      "Visualized relationships between patient factors and CKD risk.",
+      "Designed the dashboard to support health professionals during risk discussions."
+    ],
+    "details": "A decision-support dashboard that helps health professionals explore factors related to chronic kidney disease risk.",
+    "tech": ["Power BI", "Data Analysis"],
+    "color": "from-orange-500 to-red-500",
+    "images": ["ckd1.png", "ckd2.png", "ckd3.png"],
+    "liveDemo": "",
+    "visible": true
+  }
+]
