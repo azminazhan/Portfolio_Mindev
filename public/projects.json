@@ -14,9 +14,20 @@
       "Presented the solution to senior stakeholders and received approval for potential company-wide adoption."
     ],
     "details": "Centralized employee knowledge hub to host wellness session recordings, articles, town halls, internal trainings, and ISO certification progress, improving accessibility compared to email- and chat-based distribution.",
-    "tech": ["Firebase", "JavaScript", "Antigravity", "Base44"],
+    "tech": [
+      "Firebase",
+      "JavaScript",
+      "Antigravity",
+      "Base44"
+    ],
     "color": "from-green-400 to-teal-500",
-    "images": ["signin1.png", "home.png", "articles.png", "iso.png", "admin.png"],
+    "images": [
+      "signin1.png",
+      "home.png",
+      "articles.png",
+      "iso.png",
+      "admin.png"
+    ],
     "liveDemo": "https://entomo-7c549.web.app/",
     "visible": true
   },
@@ -35,9 +46,20 @@
       "Experimented with optimizers, learning rates, sequence lengths, dropout rates, and training epochs to improve performance."
     ],
     "details": "Using a hybrid ResNet-50 and LSTM model, the system detects deepfake videos by identifying generated artifacts on the face.",
-    "tech": ["Python", "Streamlit", "TensorFlow", "PyTorch", "Machine Learning"],
+    "tech": [
+      "Python",
+      "Streamlit",
+      "TensorFlow",
+      "PyTorch",
+      "Machine Learning"
+    ],
     "color": "from-blue-500 to-cyan-500",
-    "images": ["deep_home.png", "deep_process.png", "deep_result.png", "deep_explain.png"],
+    "images": [
+      "deep_home.png",
+      "deep_process.png",
+      "deep_result.png",
+      "deep_explain.png"
+    ],
     "liveDemo": "https://deepfake-detection-system-hv7yzpci4fubzj9vvktvlu.streamlit.app/",
     "visible": true
   },
@@ -55,7 +77,12 @@
       "Developed relational schemas, ER diagrams, and optimized SQL queries for inventory, suppliers, orders, and deliveries."
     ],
     "details": "A database management system designed to streamline stock delivery operations for a simulated supply-chain environment.",
-    "tech": ["Oracle Database", "PL/SQL", "SQL", "ERD"],
+    "tech": [
+      "Oracle Database",
+      "PL/SQL",
+      "SQL",
+      "ERD"
+    ],
     "color": "from-purple-500 to-pink-500",
     "images": [],
     "liveDemo": "",
@@ -75,9 +102,52 @@
       "Designed the dashboard to support health professionals during risk discussions."
     ],
     "details": "A decision-support dashboard that helps health professionals explore factors related to chronic kidney disease risk.",
-    "tech": ["Power BI", "Data Analysis"],
+    "tech": [
+      "Power BI",
+      "Data Analysis"
+    ],
     "color": "from-orange-500 to-red-500",
-    "images": ["ckd1.png", "ckd2.png", "ckd3.png"],
+    "images": [
+      "ckd1.png",
+      "ckd2.png",
+      "ckd3.png"
+    ],
+    "liveDemo": "",
+    "visible": true
+  },
+  {
+    "id": "project-1786435224053",
+    "title": "Wedding Venue System",
+    "category": "Web Development",
+    "role": "Developer",
+    "challenge": "Wedding venue staff were handling repetitive WhatsApp and phone enquiries, tracking bookings and staged payments manually, and storing customer details across chats and spreadsheets. This created slow responses, missed follow-ups, payment confusion, and double-booking risk.",
+    "solution": "Designed and developed a centralized wedding venue management system with a responsive marketing site, package gallery, quick-estimate calculator, availability calendar, booking management, and an admin dashboard for staff.",
+    "outcome": "Delivered a client-ready prototype that gives customers a clearer self-service booking journey and gives venue staff a single place to manage leads, dates, booking status, and customer information. The system foundation also supports future CMS, notification, and analytics modules.",
+    "description": [
+      "Built a responsive venue website with package information, galleries, testimonials, and enquiry flow.",
+      "Created a quick-estimate calculator so customers can receive an initial price without waiting for a manual quote.",
+      "Implemented a dynamic availability calendar that blocks unavailable or booked wedding dates.",
+      "Developed booking-management features for reviewing enquiries, approving reservations, assigning venues, and tracking booking status.",
+      "Built the foundation of a secure admin dashboard for viewing leads and managing unavailable dates.",
+      "Structured the project for future content management, automated notifications, payment tracking, and business analytics."
+    ],
+    "details": "A smart wedding venue platform that helps couples explore packages, check date availability, submit enquiries, and get quick estimates online while staff manage bookings in one place.",
+    "tech": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Prisma",
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "color": "from-green-400 to-teal-500",
+    "images": [
+      "https://raw.githubusercontent.com/azminazhan/Portfolio_Mindev/refs/heads/main/public/project-images/project-1786435224053-1786435413959-dewan1.png",
+      "https://raw.githubusercontent.com/azminazhan/Portfolio_Mindev/refs/heads/main/public/project-images/project-1786435224053-1786435417355-dewan2.png",
+      "https://raw.githubusercontent.com/azminazhan/Portfolio_Mindev/refs/heads/main/public/project-images/project-1786435224053-1786435423937-dewan3.png",
+      "https://raw.githubusercontent.com/azminazhan/Portfolio_Mindev/refs/heads/main/public/project-images/project-1786435224053-1786435429327-dewan4.png"
+    ],
     "liveDemo": "",
     "visible": true
   }
